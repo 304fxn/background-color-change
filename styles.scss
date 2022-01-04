@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#main {
+  text-align: center;
+
+  h1 {
+    color: #fff;
+    background-color: darkslategrey;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+  }
+
+  button {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+}
